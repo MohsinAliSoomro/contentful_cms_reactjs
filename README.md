@@ -7,6 +7,10 @@ The react app is integrated with [Contentful CMS](https://www.contentful.com/) A
 
 ![App](https://github.com/MohsinAliSoomro/contentful_cms_reactjs/blob/master/src/contentful.gif?raw=true)
 
+Clone
+```
+https://github.com/MohsinAliSoomro/contentful_cms_reactjs.git
+```
 
 Run Commands
 ```
