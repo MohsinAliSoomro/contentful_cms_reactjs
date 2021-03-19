@@ -12,6 +12,7 @@ Dependency
 npm install contentful
 ```
 Get Your entries from contentful CMS
+get your space id and accessToken from contentful CMS
 ```
 import * as contentful from 'contentful';
 
