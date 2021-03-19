@@ -7,6 +7,23 @@ The react app is integrated with [Contentful CMS](https://www.contentful.com/) A
 
 ![App](https://github.com/MohsinAliSoomro/contentful_cms_reactjs/blob/master/src/contentful.gif?raw=true)
 
+Dependency
+js```
+npm install contentful
+```
+Get Your entries from contentful CMS
+js```
+import * as contentful from 'contentful';
+
+export const client = contentful.createClient({
+	space: process.env.REACT_APP_SPACE_ID,
+	accessToken:process.env.REACT_APP_ACCESS_TOKEN
+});
+client.getEntries()
+.then(entries=>console.log(entries))
+.catch(er=>console.log(er))
+
+```
 Clone
 ```
 https://github.com/MohsinAliSoomro/contentful_cms_reactjs.git
