@@ -8,11 +8,11 @@ The react app is integrated with [Contentful CMS](https://www.contentful.com/) A
 ![App](https://github.com/MohsinAliSoomro/contentful_cms_reactjs/blob/master/src/contentful.gif?raw=true)
 
 Dependency
-js```
+```
 npm install contentful
 ```
 Get Your entries from contentful CMS
-js```
+```
 import * as contentful from 'contentful';
 
 export const client = contentful.createClient({
